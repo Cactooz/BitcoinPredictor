@@ -20,7 +20,6 @@ def simulation(start_money, actuals, predictions, fee):
         sell_count += 1
 
     print(f"Money: {curr_money} Buy count: {buy_count} Sell count: {sell_count}")
-    return curr_money
 
 if __name__ == '__main__':
     actuals2 = [
